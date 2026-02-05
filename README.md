@@ -8,6 +8,14 @@ These examples were written as part of academic coursework and are published wit
 
 ## 📂 Included Programs
 
+### `sorts.asm`
+A comprehensive implementation of three classic sorting algorithms: **Insertion Sort**, **Selection Sort**, and **Bubble Sort**.
+* Demonstrates modular programming using **procedures**.
+* Uses **stack-based parameter passing** for function calls.
+* Includes a custom routine for printing **signed decimal numbers** to the console.
+
+---
+
 ### `data_changing.asm`
 Demonstrates basic data manipulation and memory operations in 8086 assembly.  
 Focuses on register usage, data movement, and simple logic.
@@ -29,10 +37,12 @@ Demonstrates keyboard input handling and real-time updates using video memory.
 ## 🧠 Key Concepts Demonstrated
 
 - 8086 instruction set
+- **Stack frames & Procedure parameters**
+- **Sorting algorithms implementation**
 - Segment and offset addressing
 - Direct video memory access (`0xB800`)
 - Keyboard input via BIOS interrupts
-- Loops and conditional jumps
+- Loops, conditional jumps, and signed arithmetic
 - Low-level screen rendering in text mode
 
 ---
